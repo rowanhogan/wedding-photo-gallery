@@ -1,0 +1,92 @@
+{
+  "points":[
+    {
+      "address":"Paris, France",
+      "coordinates":[
+        2.3522219,
+        48.856614
+      ],
+      "data":{
+        "name":"Paris",
+        "image":"http://distilleryimage7.ak.instagram.com/5f5ece8e05b411e3b1ed22000ae801e7_7.jpg"
+      }
+    },
+    {
+      "address":"Bordeaux, France",
+      "coordinates":[
+        -0.57918,
+        44.837789
+      ],
+      "data":{
+        "name":"Bordeaux",
+        "image":"http://distilleryimage11.ak.instagram.com/05bf034409b011e392eb22000a1fbd89_7.jpg"
+      }
+    },
+    {
+      "address":"lanton aquitaine france",
+      "coordinates":[
+        -1.035469,
+        44.702377
+      ],
+      "data":{
+        "name":"Lanton",
+        "image":"http://distilleryimage1.ak.instagram.com/508f90dc09b011e393dd22000a1fb194_7.jpg"
+      }
+    },
+    {
+      "address":"Carcassonne France",
+      "coordinates":[
+        2.353663,
+        43.212161
+      ],
+      "data":{
+        "name":"Carcassonne",
+        "image":"http://distilleryimage9.ak.instagram.com/fa39b1c609d811e3a3b222000a9f1696_7.jpg"
+      }
+    },
+    {
+      "address":"Barcelona, Spain",
+      "coordinates":[
+        2.1734035,
+        41.3850639
+      ],
+      "data":{
+        "name":"Barcelona",
+        "image":"http://distilleryimage9.ak.instagram.com/ec6a82d00d9511e39c6822000a1f9688_7.jpg"
+      }
+    },
+    {
+      "address":"Prague, Czech Republic",
+      "coordinates":[
+        14.4378005,
+        50.0755381
+      ],
+      "data":{
+        "name":"Prague",
+        "image":"http://distilleryimage8.ak.instagram.com/b1c4800a102311e380a722000a9e28dc_7.jpg"
+      }
+    },
+    {
+      "address":"Weimar, Germany",
+      "coordinates":[
+        11.3225398,
+        50.984712
+      ],
+      "data":{
+        "name":"Weimar",
+        "image":"http://distilleryimage2.ak.instagram.com/148e1010917111e39584123223ad70da_8.jpg"
+      }
+    },
+    {
+      "address":"Berlin, Germany",
+      "coordinates":[
+        13.404954,
+        52.5200066
+      ],
+      "data":{
+        "name":"Berlin",
+        "image":"http://distilleryimage2.ak.instagram.com/cf8fe3ee917011e38d9b123a52dd7ffe_8.jpg"
+      }
+    }
+  ]
+}
