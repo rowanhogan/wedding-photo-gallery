@@ -1,0 +1,21 @@
+header {
+  text-align: center;
+  padding: 4em 2em;
+  text-transform: uppercase;
+  color: coral;
+
+  h1, h2 {
+    font-weight: 400;
+    line-height: 1.25em;
+  }
+
+  h1 {
+    font-size: 2em;
+  }
+
+  h2 {
+    font-size: 1.25em;
+    letter-spacing: .25em;
+    margin: 1em 0 0;
+  }
+}

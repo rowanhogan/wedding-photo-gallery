@@ -1,0 +1,53 @@
+.gallery {
+  text-align: center;
+}
+
+.thumb {
+  float: left;
+  list-style: none;
+  width: 25%;
+  margin: 0;
+  background-color: #eee;
+  background-position: center;
+  background-size: cover;
+  box-sizing: border-box;
+
+  &.active {
+    box-shadow: inset 0 0 0 .5em rgba(white, .5);
+  }
+
+  &:hover {
+    -webkit-filter: grayscale(1);
+    filter: grayscale(1);
+    cursor: pointer;
+    @include transition(all .25s ease);
+  }
+
+  img {
+    display: block;
+    visibility: hidden;
+    opacity: 0;
+    width: 100%;
+    height: auto;
+  }
+
+  @media screen and (max-width: 60em) {
+    width: 33.333%;
+  }
+
+  @media screen and (max-width: 40em) {
+    width: 50%;
+  }
+
+  @media screen and (max-width: 30em) {
+    width: 100%;
+  }
+
+  @media screen and (max-width: 30em) and (orientation:landscape) {
+    width: 50%;
+  }
+
+  @media screen and (min-width: 80em) {
+    width: 20%;
+  }
+}
