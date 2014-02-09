@@ -48,7 +48,7 @@
     var apiKey, flickrApiBase, photosetID, target;
     flickrApiBase = 'http://api.flickr.com/services/rest/';
     apiKey = 'b47d066411e56d0ca5b62ce20331f15b';
-    photosetID = '72157640706108265';
+    photosetID = '72157640716177975';
     target = document.getElementById('gallery');
     window.spinner = new Spinner({
       width: 6
