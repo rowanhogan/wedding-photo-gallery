@@ -5,6 +5,7 @@
 }
 
 .thumb {
+  position: relative;
   float: left;
   list-style: none;
   width: 25%;
@@ -19,8 +20,31 @@
   }
 
   &:hover {
+    @extend .icon-arrow-down-right;
     cursor: pointer;
     box-shadow: inset 0 0 0 1000px rgba(white, .5);
+
+    &:before {
+      font-family:"icons";
+      display:inline-block;
+      font-weight:normal;
+      font-style:normal;
+      speak:none;
+      text-decoration:inherit;
+      text-transform:none;
+      text-rendering:optimizeLegibility;
+      -webkit-font-smoothing:antialiased;
+      -moz-osx-font-smoothing:grayscale;
+      position: absolute;
+      bottom: 0;
+      right: 0;
+      margin: 1em;
+      width: 1em;
+      height: 1em;
+      line-height: 1em;
+      font-size: 1.5em;
+      margin: .5em;
+    }
   }
 
   img {

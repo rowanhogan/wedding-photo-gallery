@@ -76,5 +76,5 @@ module.exports = function(grunt) {
   grunt.option('force', true);
 
   grunt.registerTask('default', ['connect', 'concat', 'coffee', 'compass', 'watch']);
-  grunt.registerTask('build', ['compass', 'concat', 'coffee', 'webfont', 'gh-pages']);
+  grunt.registerTask('build', ['compass', 'concat', 'coffee', 'gh-pages']);
 }
