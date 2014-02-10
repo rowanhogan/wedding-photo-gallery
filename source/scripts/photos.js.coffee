@@ -5,7 +5,16 @@
   photosetID = '72157640716177975'
 
   target = document.getElementById('gallery')
-  window.spinner = new Spinner({ width: 6 }).spin(target)
+  window.spinner = new Spinner({
+    lines: 9
+    length: 14
+    width: 5
+    radius: 15
+    corners: 1
+    speed: 1
+    trail: 60
+    color: "#521600"
+  }).spin(target)
 
   window.carousel = $('#carousel').swiper
     loop: true
@@ -37,7 +46,7 @@ $ ->
 
   $(window).load ->
     spinner.stop()
-    console?.log 'images loaded'
+    console?.log 'All images loaded.'
 
 firstClick = true
 

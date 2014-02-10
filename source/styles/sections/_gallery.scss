@@ -1,5 +1,7 @@
 .gallery {
   text-align: center;
+  min-height: 24em;
+  background: #eee;
 }
 
 .thumb {
@@ -7,20 +9,18 @@
   list-style: none;
   width: 25%;
   margin: 0;
-  background-color: #eee;
   background-position: center;
   background-size: cover;
   box-sizing: border-box;
+  @include transition(all .25s ease);
 
   &.active {
-    box-shadow: inset 0 0 0 .5em rgba(white, .5);
+    box-shadow: inset 0 0 0 1em rgba(black, .25);
   }
 
   &:hover {
-    -webkit-filter: grayscale(1);
-    filter: grayscale(1);
     cursor: pointer;
-    @include transition(all .25s ease);
+    box-shadow: inset 0 0 0 1000px rgba(white, .5);
   }
 
   img {
@@ -49,5 +49,11 @@
 
   @media screen and (min-width: 80em) {
     width: 20%;
+  }
+
+  @media screen and (max-device-width: 768px) {
+    &.active, &:hover {
+      box-shadow: none;
+    }
   }
 }

@@ -1,8 +1,21 @@
 @import url(http://fonts.googleapis.com/css?family=Montserrat|Alegreya);
 
 html {
-  font: normal 100%/1.5em 'Montserrat';
+  font: normal 100%/1.5em 'Montserrat', Verdana, sans-serif;
   text-rendering:optimizeLegibility;
   -webkit-font-smoothing:antialiased;
   -moz-osx-font-smoothing:grayscale;
+  text-align: center;
+  text-transform: uppercase;
+  color: coral;
+}
+
+a {
+  color: darken(coral, 10%);
+  opacity: .75;
+  text-decoration: none;
+
+  &:hover {
+    opacity: 1;
+  }
 }

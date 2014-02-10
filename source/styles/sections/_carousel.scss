@@ -87,3 +87,47 @@
   right: 0;
 }
 
+
+.swipe-guide {
+  display: none;
+  position: fixed;
+  bottom: 2em;
+  right: 0;
+  width: 3em;
+  height: 3em;
+  line-height: 3em;
+  z-index: 10;
+  -webkit-animation: swipe 2.5s 2 forwards;
+  -moz-animation: swipe 2.5s 2 forwards;
+
+  img {
+    display: block;
+    max-width: 100%;
+  }
+}
+
+
+@media screen and (max-device-width: 768px) {
+  .slide-nav {
+    display: none;
+  }
+
+  .swipe-guide { display: block; }
+}
+
+
+@-webkit-keyframes swipe {
+  0%   { right: 0; opacity: 0; }
+  20%  { right: 0; opacity: 0; }
+  50%  { opacity: .5; }
+  80%  { right: 100%; opacity: 0; }
+  100% { right: 100%; opacity: 0; }
+}
+
+@-moz-keyframes swipe {
+  0%   { right: 0; opacity: 0; }
+  20%  { right: 0; opacity: 0; }
+  50%  { opacity: .5; }
+  80%  { right: 100%; opacity: 0; }
+  100% { right: 100%; opacity: 0; }
+}
