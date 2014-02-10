@@ -51,7 +51,14 @@
     photosetID = '72157640716177975';
     target = document.getElementById('gallery');
     window.spinner = new Spinner({
-      width: 6
+      lines: 9,
+      length: 14,
+      width: 5,
+      radius: 15,
+      corners: 1,
+      speed: 1,
+      trail: 60,
+      color: "#521600"
     }).spin(target);
     window.carousel = $('#carousel').swiper({
       loop: true,
@@ -85,7 +92,7 @@
     photos();
     return $(window).load(function() {
       spinner.stop();
-      return typeof console !== "undefined" && console !== null ? console.log('images loaded') : void 0;
+      return typeof console !== "undefined" && console !== null ? console.log('All images loaded.') : void 0;
     });
   });
 
